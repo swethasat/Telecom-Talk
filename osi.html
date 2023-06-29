@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OSI</title>
+  <link rel="stylesheet" href="all.css">
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+<body>
+  <div class="navbar">
+    
+    <a><b>Telecom Talk &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></a>
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Overview
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Evolution.html">Evolution</a>
+        <a href="impact.html">Impact</a>
+      </div>
+    </div>
+        <div class="dropdown">
+      <button class="dropbtn">Multiplexing
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="tdm.html">TDM</a>
+        <a href="fdm.html">FDM</a>
+        <a href="cdm.html">CDM</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Cellular Network
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="overview.html">Overview</a>
+        <a href="cell.html">Cell structure</a>
+        <a href="mobile.html">Mobile Network Deployment</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Network Components
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="voice.html">Voice calling </a>
+        <a href="data.html">Data transfer</a>
+        <a href="ims.html">IMS</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Services
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="crm.html">Customer Relationship Management</a>      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Protocols
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="osi.html">OSI Model</a>
+        <a href="other.html">Other Protocols</a>
+        <a href="numbering.html">Numbering plans</a>
+
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Emerging tech
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="native.html">Native </a>
+        <a href="virtual.html">Virtualization</a>
+        <a href="edge.html">Edge computing</a>
+      </div>
+    </div>
+  </div>
+
+<div class="gif-section">
+  <h1 class="fade-in" style="color: #000000; margin-top: -500px; left: 100px;">OSI MODEL</h1>
+  <img src="osi.gif" alt="OSI MODEL" width="1200" height="650" autoplay loop muted>
+</div>
+<div class="text-section">
+  <div class="container">
+    <div class="content fade-in">
+      <p> <h2>Understanding the OSI Model:</h2><br>
+
+
+The OSI (Open Systems Interconnection) model is a conceptual framework that helps us comprehend how different parts of a computer network communicate with each other. It breaks down the complex process of network communication into several organized layers, each with specific responsibilities. Think of it as a blueprint that guides the flow of information between network devices.
+
+<h2>Exploring the OSI Model Layers:</h2><br>
+
+The OSI model consists of seven layers, each playing a crucial role in the transmission, routing, and delivery of data. Let's dive into the details of each layer:<br><br>
+
+<b>Physical Layer:</b><br>
+The Physical layer is responsible for the physical transmission of data over the network. It deals with the electrical, mechanical, and physical aspects of communication, such as voltage levels, cables, connectors, and data transmission rates. This layer defines the physical media used for data transmission, such as copper wires, fiber optics, or wireless signals. It ensures that bits (0s and 1s) are transmitted over physical mediums accurately.<br><br>
+
+<b>Data Link Layer:</b><br>
+The Data Link layer provides reliable and error-free transmission of data between directly connected network devices. It ensures that data packets are delivered without errors by implementing error detection and correction techniques. This layer also handles flow control to manage the flow of data between sender and receiver when multiple devices share the same network segment. It ensures that data is correctly packaged and addressed for delivery.<br><br>
+
+<b>Network Layer:</b><br>
+The Network layer focuses on logical addressing and routing of data across different networks. It defines the structure of IP addresses and determines the best path for packet delivery using routing algorithms. The Network layer encapsulates data into packets, adds source and destination IP addresses, and enables packets to traverse multiple networks. It acts as the postal service, determining the optimal route for data packets to reach their destination.<br><br>
+
+<b>Transport Layer:</b><br>
+The Transport layer ensures reliable and transparent end-to-end transfer of data between host systems. It breaks down large data streams into smaller segments, manages sequencing and reassembly of segments at the destination, and provides error recovery and flow control mechanisms. <br>This layer uses protocols like TCP (Transmission Control Protocol) for connection-oriented communication or UDP (User Datagram Protocol) for connectionless communication. It divides messages into manageable packets and ensures their correct order and delivery.<br><br>
+
+<b>Session Layer:</b><br>
+The Session layer establishes, manages, and terminates sessions or connections between applications. It provides synchronization points in data exchange and ensures that data is delivered correctly between communicating applications. This layer handles session establishment, maintenance, and termination, as well as checkpointing and recovery of data in case of failures. It coordinates the flow of data, ensuring both sides are ready to exchange information.<br><br>
+
+<b>Presentation Layer:</b><br>
+The Presentation layer deals with data formatting and representation. It transforms data from the application layer into a format that can be understood by the receiving application. This layer is responsible for data encryption, compression, and conversion between different data formats and character sets. It ensures the integrity and security of data transmission.<br><br>
+
+<b>Application Layer:</b><br>
+The Application layer is where the actual applications or services reside. It encompasses a wide range of protocols and services that enable user interaction with the network, such as web browsing, email communication, file transfer, remote login, and more. Application layer protocols include HTTP (Hypertext Transfer Protocol) for web browsing, FTP (File Transfer Protocol) for file transfer, SMTP (Simple Mail Transfer Protocol) for email communication, DNS (Domain Name System) for domain name resolution, and many others. This layer allows users to access network resources and interact with the network.<br><br>
+
+<h2>Applications of the OSI Model:</h2><br>
+
+The OSI model serves as a foundational framework for network communication and is widely used in various areas, including:<br><br>
+
+<b>Network Design and Implementation:</b><br>
+The OSI model helps network designers and engineers plan, implement, and troubleshoot computer networks. By understanding the distinct responsibilities of each layer, network professionals can design efficient and scalable networks that meet specific requirements.<br><br>
+
+<b>Network Protocols and Standards:</b><br>
+The OSI model forms the basis for the development and implementation of network protocols and standards. It ensures compatibility and interoperability between different network devices and technologies.<br><br>
+
+<b>Network Troubleshooting and Maintenance:</b><br>
+The layered approach of the OSI model simplifies network troubleshooting and maintenance tasks. By isolating issues to specific layers, network administrators can identify and resolve problems more effectively.<br><br>
+
+<b>Network Security and Encryption:</b><br>
+The Presentation layer of the OSI model plays a vital role in data encryption and security. By encrypting data at this layer, sensitive information can be transmitted securely across networks.
+
+</p>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

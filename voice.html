@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice calling</title>
+  <link rel="stylesheet" href="all.css">
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+<body>
+  <div class="navbar">
+    
+    <a><b>Telecom Talk &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></a>
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Overview
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Evolution.html">Evolution</a>
+        <a href="impact.html">Impact</a>
+      </div>
+    </div>
+        <div class="dropdown">
+      <button class="dropbtn">Multiplexing
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="tdm.html">TDM</a>
+        <a href="fdm.html">FDM</a>
+        <a href="cdm.html">CDM</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Cellular Network
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="overview.html">Overview</a>
+        <a href="cell.html">Cell structure</a>
+        <a href="mobile.html">Mobile Network Deployment</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Network Components
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="voice.html">Voice calling </a>
+        <a href="data.html">Data transfer</a>
+        <a href="ims.html">IMS</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Services
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="crm.html">Customer Relationship Management</a>      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Protocols
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="osi.html">OSI Model</a>
+        <a href="other.html">Other Protocols</a>
+        <a href="numbering.html">Numbering plans</a>
+
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Emerging tech
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="native.html">Native </a>
+        <a href="virtual.html">Virtualization</a>
+        <a href="edge.html">Edge computing</a>
+      </div>
+    </div>
+  </div>
+
+<div class="gif-section">
+  <h1 class="fade-in" style="color: #fff; margin-top: -0px; left: 100px;">Telecom Call Process</h1>
+  <img src="voice.gif" alt="calling" width="1200" height="600" autoplay loop muted>
+</div>
+<div class="text-section">
+  <div class="container">
+    <div class="content fade-in">
+      <p><h2>Telecom Network Components and Working for Voice Calls</h2><br><br>
+
+Telecom networks consist of several key components that work together to enable voice communication. Understanding how these components interact is essential for comprehending the functioning of a telecom system. The primary components involved in voice call communication are:<br><br>
+
+Base Transceiver Station (BTS): The BTS is a physical equipment or station that directly communicates with mobile devices such as mobile phones or tablets. It is typically located at a cell tower or similar structure. The BTS is responsible for transmitting and receiving signals to and from mobile devices within its coverage area. It handles tasks such as signal transmission, reception, modulation, and demodulation.<br><br>
+
+Base Station Subsystem (BSS): The BSS is a collection of equipment that works together to manage and control the BTSs. It includes the BTS itself, Base Station Controllers (BSCs), and other related components. The BSS manages radio resources, controls the handover of calls between BTSs, and handles tasks like power control, frequency allocation, and managing signal quality. It acts as an intermediary between the BTS and the Mobile Switching Center (MSC).<br><br>
+
+Mobile Switching Center (MSC): The MSC is a central hub in the telecom network that connects various components and enables communication between different mobile devices or between mobile and fixed-line networks. It handles call routing, switching, and connection management. The MSC connects to the BSS to control and manage multiple BTSs. It also interfaces with other MSCs or external networks to enable calls or data transfer to other mobile devices or landline phones.<br><br>
+
+<h2>Voice Call Process:</h2><br>
+
+When a voice call is made, several steps occur within the telecom network to establish and connect the call. Here's a detailed overview of the process:<br><br>
+
+Call Initiation: The caller dials the recipient's phone number using their mobile device or landline phone. The call initiation signal is sent to the nearest Base Transceiver Station (BTS) that covers the caller's location.<br><br>
+
+Connection to Base Station Subsystem (BSS): The BTS receives the call initiation signal and forwards it to the Base Station Subsystem (BSS). The BSS manages multiple BTSs and is responsible for controlling and coordinating the call.<br><br>
+
+Routing to Mobile Switching Center (MSC): The BSS communicates with the Mobile Switching Center (MSC) and sends the call information, including the caller's number and the recipient's number. The MSC acts as a central hub and controls the call routing and switching.<br><br>
+
+Querying the Home Location Register (HLR): The MSC queries the Home Location Register (HLR), a database that stores subscriber information, to determine the recipient's current location and the serving MSC that handles their calls.<br><br>
+
+Establishing Connection to Recipient's BTS: Based on the recipient's location information from the HLR, the MSC establishes a connection to the BTS that covers the recipient's area.<br><br>
+
+Paging the Recipient: The recipient's BTS receives a paging message from the MSC, instructing it to locate the recipient's mobile device and prepare it to receive the call.<br><br>
+
+Mobile Device Registration: If the recipient's mobile device is powered on and within range of their BTS, it responds to the paging message and registers with the network, indicating its readiness to receive the call.<br><br>
+
+Connecting the Call: Once the recipient's mobile device is registered, the MSC establishes a connection between the caller's BTS and the recipient's BTS. The voice data from the caller's device is encoded, transmitted over the network, and received by the recipient's device.<br><br>
+
+Call in Progress: The voice data is converted back into audible sound on the recipient's mobile device, allowing the caller and recipient to communicate in real-time. The MSC monitors the call for quality, manages handovers between BTSs if the recipient moves during the call, and handles any additional services or features enabled during the call (e.g., call waiting, call forwarding).<br><br>
+
+Call Termination: When the call ends, either party hangs up, and the connection is terminated. The BTS and MSC release the resources allocated for the call, making them available for other calls.<br><br>
+
+By understanding the role of each component and the detailed process of a voice call, we gain insight into the intricate workings of a telecom network. This knowledge helps us appreciate the complexity involved in enabling seamless and reliable voice communication.
+
+
+
+
+</p>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
